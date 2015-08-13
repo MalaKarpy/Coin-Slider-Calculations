@@ -12,12 +12,12 @@ public class CoinCombinationsTest {
 
   }
 
-  // @Test
-  // public void isChangeReturning_CorrectQuarters_false() {
-  //
-  //   CoinCombinations testcoinCombinations = new CoinCombinations();
-  //    Integer numFive = 5;
-  //    assertEquals(numFive, testcoinCombinations.changeCalculations(93).get("quarters"));
-  //
-  //  }
+    @Test
+    public void isChangeReturning_CorrectQuarters_false() {
+
+     CoinCombinations testcoinCombinations = new CoinCombinations();
+      Integer numFive = 2;
+      assertEquals(numFive, testcoinCombinations.changeCalculations(93).get("quarters"));
+
+    }
 }
